@@ -12,3 +12,14 @@ All data needed to recreate this data is provided in this directory.
 
 All source data is in the `NEI Data` directory(on the home page). The data was downloaded from the Netional Emmissions Inventory website. All downloaded data is contained in the directory is from the year 2011 , 2014 and 2017. Additionally, we can try to download the emmissions information from other years by following the below guidelines. 
 
+Variables in the output data set:
+
+- `Sector` : Pollutant Source
+- `State` : State Details
+- `State_FIPS` : population density per square mil
+-`County` : County Details
+- `County_FIPS` : median household income
+- `Pollutant` : Pollutant Name
+- `Pollutant Type` : Type of Pollutant
+- `Emissions` : Amount of Emission
+- `Unit Of Measure` : Tons
