@@ -12,6 +12,15 @@ All data needed to recreate this data is provided in this directory.
 
 All source data is in the `NEI Data` directory(on the home page). The data was downloaded from the Netional Emmissions Inventory website. All downloaded data is contained in the directory is from the year 2011 , 2014 and 2017. Additionally, we can try to download the emmissions information from other years by following the below guidelines. 
 
+Extracting the Data From the Website in CSV format :
+  
+  Scroll down to the end of page in the website to apply following filters:
+   1. Filter the State from National / State / County or Tribe column
+   2. Filter Virgina From Geographic Aggregation Column
+   3. Choose the pollutant of Interest from Pollutant Column
+   4. Leave out the sector column and submit your choices
+  
+
 Variables in the output data set:
 
 - `Sector` : Pollutant Source
@@ -23,3 +32,4 @@ Variables in the output data set:
 - `Pollutant Type` : Type of Pollutant
 - `Emissions` : Amount of Emission
 - `Unit Of Measure` : Tons
+
