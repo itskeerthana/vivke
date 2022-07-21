@@ -5,7 +5,7 @@ July 20, 2022
 
 `Link` : https://www.epa.gov/air-emissions-inventories/2011-national-emissions-inventory-nei-data#dataq
 
-This directory contains a pipeline to produce a data set with demographic information from the US Census and American Community Survey at the zip code level.
+This directory contains a pipeline to produce a data set that provides amount of emissions(in tons) of different pollutants from different county's in Virginia 
 All data needed to recreate this data is provided in this directory.
 
 ## Raw Data
