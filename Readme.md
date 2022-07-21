@@ -25,10 +25,12 @@ Variables in the output data set:
 - `Sector` : Pollutant Source
 - `State` : State Details
 - `State_FIPS` : population density per square mil
--`County` : County Details
+- `County` : County Details
 - `County_FIPS` : median household income
 - `Pollutant` : Pollutant Name
 - `Pollutant Type` : Type of Pollutant
 - `Emissions` : Amount of Emission
 - `Unit Of Measure` : Tons
+
+
 
