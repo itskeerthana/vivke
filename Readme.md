@@ -3,7 +3,7 @@ Data Pipeline
 Keerthana Vallamkonda
 July 20, 2022
 
-This directory contains a pipeline to produce a data set that provides amount of emissions(in tons) of different pollutants from various county's in Virginia 
+This directory contains a pipeline to produce interactive visualizations in R showing the amount of emissions(in tons) in various Virginia's county for the years 2011, 2014, and 2017 at various levels
 All data needed to recreate this data is provided in this directory.
 
 # 1. Data Source
@@ -35,4 +35,16 @@ Variables in the output data set:
 
 # 2. Data Pre-Processing
 
-Libraries Used
+Libraries used for Mapping coordinates of varous counties in Virgina are 
+```
+   library(here)
+   library(ggplot2)
+   library(ggh4x)
+   library(USAboundaries)
+   library(sf)
+   library(dplyr)
+   library(data.table)
+   library(stringr)
+   library(stringi)
+   library(writexl)
+   ```
