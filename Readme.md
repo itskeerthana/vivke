@@ -54,3 +54,6 @@ Libraries used for Mapping coordinates of varous counties in Virgina are
   - We use If, else statements to extract select emissions in desired category
   - Merge emissions data with county geographical data by geoid
   -  Group and summarize emissions by county (otherwise variable color fill has problems)
+
+# 3. Data Analysis 
+   ** app.R ** :
