@@ -55,6 +55,13 @@ Libraries used for Mapping coordinates of varous counties in Virgina are
   -  Group and summarize emissions by county (otherwise variable color fill has problems)
 
 # 3. Data Analysis 
+Libraries used for analyzing and visualizing data along with MAP_NEI as source(meaing, MAP_NEI needed to be executed first prior to execting App.R)
+```
+library(shiny)
+library(dplyr)
+library(fs)
+library(here)
+  ```
    **App.R** : This Shiny project combines both User Interface and Server functions to produces interactive visualizations by the users inputs through UI
    - Use  fluidpage and select input functions to display  various sector and years options via dropbox to users
    - Based on the useres input switch the data needed to be loaded accordingly to reduce the processing time
