@@ -38,7 +38,7 @@ Variables in the output data set:
 
 Libraries used for Mapping coordinates of varous counties in Virgina are 
 ```
-   library(here)
+   library(here) 
    library(ggplot2)
    library(ggh4x)
    library(USAboundaries)
@@ -63,6 +63,8 @@ Libraries used for Mapping coordinates of varous counties in Virgina are
 Tasks | Data Source | Data Pre-processing | Data Analyzing
 :------------ | :-------------| :-------------| :-------------
 Done Tasks | :white_check_mark: |  :white_check_mark: | :white_check_mark:
+ 
+ # 4. Results 
  
  
 
