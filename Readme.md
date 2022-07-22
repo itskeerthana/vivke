@@ -17,12 +17,11 @@ All source data is in the `NEI Data` directory(on the home page). The data was d
 
 **Extracting the Data in CSV format :** (use the link above)
 
-   - [ ]  Filter the State from National / State / County or Tribe column
-   - [ ]  Filter Virgina From Geographic Aggregation Column
-   - [ ]  Choose the pollutant of Interest from Pollutant Column
-   - [ ]  Leave out the sector column and submit your choices
+   - [X]  Filter the State from National / State / County or Tribe column
+   - [X]  Filter Virgina From Geographic Aggregation Column
+   - [X]  Choose the pollutant of Interest from Pollutant Column
+   - [X]  Leave out the sector column and submit your choices
   
-
 Variables in the output data set:
 
 - `Sector` : Pollutant category
@@ -60,3 +59,10 @@ Libraries used for Mapping coordinates of varous counties in Virgina are
    - Use  fluidpage and select input functions to display  various sector and years options via dropbox to users
    - Based on the useres input switch the data needed to be loaded accordingly to reduce the processing time
    - Use Renderplot function via server function to display the resulting visualization from the users choices through UI inputs 
+
+Tasks | Data Source | Data Pre-processing | Data Analyzing
+:------------ | :-------------| :-------------| :-------------
+Done Tasks | :white_check_mark: |  :white_check_mark: | :white_check_mark:
+ 
+ 
+
