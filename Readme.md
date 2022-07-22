@@ -66,5 +66,5 @@ Done Tasks | :white_check_mark: |  :white_check_mark: | :white_check_mark:
  
  # 4. Results 
  
- ![Alt text](?raw=true "Optional Title")
+ ![Alt text](https://github.com/itskeerthana/DEVA/blob/main/NEI%20DATA/Screenshot%202022-07-21%20205201.png?raw=true "Optional Title")
 
