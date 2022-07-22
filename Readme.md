@@ -15,12 +15,12 @@ All source data is in the `NEI Data` directory(on the home page). The data was d
 
 `Link` : https://www.epa.gov/air-emissions-inventories/2011-national-emissions-inventory-nei-data#dataq
 
-**Extracting the Data in CSV format :** (use the link avove)
- 
-   - [X]  Filter the State from National / State / County or Tribe column
-   - [X]  Filter Virgina From Geographic Aggregation Column
-   - [X]  Choose the pollutant of Interest from Pollutant Column
-   - [X]  Leave out the sector column and submit your choices
+**Extracting the Data in CSV format :** (use the link above)
+
+   - [ ]  Filter the State from National / State / County or Tribe column
+   - [ ]  Filter Virgina From Geographic Aggregation Column
+   - [ ]  Choose the pollutant of Interest from Pollutant Column
+   - [ ]  Leave out the sector column and submit your choices
   
 
 Variables in the output data set:
