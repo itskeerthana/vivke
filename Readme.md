@@ -56,4 +56,4 @@ Libraries used for Mapping coordinates of varous counties in Virgina are
   -  Group and summarize emissions by county (otherwise variable color fill has problems)
 
 # 3. Data Analysis 
-   ** app.R ** :
+   **app.R** : 
