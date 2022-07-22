@@ -49,7 +49,9 @@ Libraries used for Mapping coordinates of varous counties in Virgina are
    library(stringi)
    library(writexl)
   ```
- **MAP_NEI**: Map_NEI use functions to map county's in CSV files with US boundaries geographical information and geometric coordinates that were collected from inbuilt sf library in RStudio. 
+ **MAP_NEI**: (https://github.com/itskeerthana/DEVA/blob/main/NEI%20Code/map_NEI.R)
+ 
+Map_NEI use functions to map county's in CSV files with US boundaries geographical information and geometric coordinates that were collected from inbuilt sf library in RStudio. 
   - We use If, else statements to extract select emissions in desired category
   - Merge emissions data with county geographical data by geoid
   -  Group and summarize emissions by county (otherwise variable color fill has problems)
@@ -62,7 +64,9 @@ library(dplyr)
 library(fs)
 library(here)
   ```
-   **App.R** : This Shiny project combines both User Interface and Server functions to produces interactive visualizations by the users inputs through UI
+   **App.R** : (https://github.com/itskeerthana/DEVA/blob/main/NEI%20Code/app.R) 
+   
+   This Shiny project combines both User Interface and Server functions to produces interactive visualizations by the users inputs through UI
    - Use  fluidpage and select input functions to display  various sector and years options via dropbox to users
    - Based on the useres input switch the data needed to be loaded accordingly to reduce the processing time
    - Use Renderplot function via server function to display the resulting visualization from the users choices through UI inputs 
