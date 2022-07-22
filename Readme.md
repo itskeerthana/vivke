@@ -3,7 +3,9 @@ Data Pipeline
 Keerthana Vallamkonda
 July 20, 2022
 
-This directory contains a pipeline to produce interactive visualizations in R showing the amount of emissions(in tons) in various Virginia's county for the years 2011, 2014, and 2017 at various levels
+This directory contains a pipeline to produce interactive visualizations in R showing the amount of emissions(in tons) in various Virginia's county for the years 2011, 2014, and 2017 at various levels.
+
+`Source-Maps` is an interactive shiny app used to display EPA NEI (National Emissions Inventory) data collected from 2011, 2014, and 2017 in Virginia. The shiny app output is a Virginia counties heat map based on user-specified data inputs for `Source Emissions Category` and `Year`. This app focuses on Sulfur Dioxide emissions (SO2). 
 All data needed to recreate this data is provided in this directory.
 
 # 1. Data Source
