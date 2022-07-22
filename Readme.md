@@ -17,10 +17,10 @@ All source data is in the `NEI Data` directory(on the home page). The data was d
 
 **Extracting the Data in CSV format :** (use the link avove)
  
-   1. Filter the State from National / State / County or Tribe column
-   2. Filter Virgina From Geographic Aggregation Column
-   3. Choose the pollutant of Interest from Pollutant Column
-   4. Leave out the sector column and submit your choices
+   - [X]  Filter the State from National / State / County or Tribe column
+   - [X]  Filter Virgina From Geographic Aggregation Column
+   - [X]  Choose the pollutant of Interest from Pollutant Column
+   - [X]  Leave out the sector column and submit your choices
   
 
 Variables in the output data set:
@@ -56,4 +56,7 @@ Libraries used for Mapping coordinates of varous counties in Virgina are
   -  Group and summarize emissions by county (otherwise variable color fill has problems)
 
 # 3. Data Analysis 
-   **app.R** : 
+   **App.R** : This Shiny project combines both User Interface and Server functions to produces interactive visualizations by the users inputs through UI
+   - Use  fluidpage and select input functions to display  various sector and years options via dropbox to users
+   - Based on the useres input switch the data needed to be loaded accordingly to reduce the processing time
+   - Use Renderplot function via server function to display the resulting visualization from the users choices through UI inputs 
