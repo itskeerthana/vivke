@@ -15,7 +15,7 @@ All source data is in the `NEI Data` directory(on the home page). The data was d
 
 `Link` : https://www.epa.gov/air-emissions-inventories/2011-national-emissions-inventory-nei-data#dataq
 
-**Extracting the Data in CSV format :**(use the link avove)
+**Extracting the Data in CSV format :** (use the link avove)
  
    1. Filter the State from National / State / County or Tribe column
    2. Filter Virgina From Geographic Aggregation Column
@@ -25,7 +25,7 @@ All source data is in the `NEI Data` directory(on the home page). The data was d
 
 Variables in the output data set:
 
-- `Sector` : Pollutant Source
+- `Sector` : Pollutant category
 - `State` : State Details
 - `State_FIPS` : population density per square mil
 - `County` : County Details
@@ -35,7 +35,7 @@ Variables in the output data set:
 - `Emissions` : Amount of Emission
 - `Unit Of Measure` : Tons
 
-# 2. Data Pre-Processing
+# 2. Data Pre-Processing Using RStudio
 
 Libraries used for Mapping coordinates of varous counties in Virgina are 
 ```
@@ -49,4 +49,8 @@ Libraries used for Mapping coordinates of varous counties in Virgina are
    library(stringr)
    library(stringi)
    library(writexl)
-   ```
+  ```
+ **MAP_NEI**: Map_NEI use functions to map county's in CSV files with US boundaries geographical information and geometric coordinates that were collected from inbuilt sf library in RStudio. 
+  - We use If, else statements to extract select emissions in desired category
+  - Merge emissions data with county geographical data by geoid
+  -  Group and summarize emissions by county (otherwise variable color fill has problems)
